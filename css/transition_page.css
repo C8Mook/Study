@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+}
+#box{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    text-align: center;
+    background: linear-gradient(skyblue 0%, green 100%);
+}
+#box > h1{
+
+}
+/*
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+
+    transition-duration: 2s;
+    -ms-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+}
+.box:hover{
+    width: 200px;
+    height: 300px;
+}
+.box:active{
+    background-color: red;
+}
+*/
+/*#graph{
+    width: 610px;
+    border: 3px solid black;
+}
+.bar{
+    width: 10px;
+    height: 50px;
+    background-color: orange;
+    margin: 5px;
+
+    transition: background-color 1s ease, width 5s linear 1s;
+}
+#graph:hover > .bar{
+    width: 600px;
+}*/
+/*
+.bar:nth-child(1){
+    transition-delay: 0s;
+}
+.bar:nth-child(2){
+    transition-delay: 1s;
+}
+.bar:nth-child(3){
+    transition-delay: 2s;
+}
+.bar:nth-child(4){
+    transition-delay: 3s;
+}
+.bar:nth-child(5){
+    transition-delay: 4s;
+}*/
+/*
+.bar:nth-child(1){
+    transition-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.bar:nth-child(2){
+    transition-timing-function: ease;
+}
+.bar:nth-child(3){
+    transition-timing-function: ease-in;
+}
+.bar:nth-child(4){
+    transition-timing-function: ease-in-out;
+}
+.bar:nth-child(5){
+    transition-timing-function: ease-out;
+}
+*/
+/*
+#graph:hover > .bar:nth-child(1){
+    background-color: red;
+    width: 100px;
+}
+#graph:hover > .bar:nth-child(2){
+    background-color: blue;
+    width: 200px;
+}
+#graph:hover > .bar:nth-child(3){
+    background-color: green;
+    width: 300px;
+}
+#graph:hover > .bar:nth-child(4){
+    background-color: yellow;
+    width: 400px;
+}
+#graph:hover > .bar:nth-child(5){
+    background-color: pink;
+    width: 500px;
+}*/
